@@ -11,3 +11,5 @@ EXPOSE 80
 # Copy files
 WORKDIR ${HTML_PATH}
 COPY html ./
+
+VOLUME /var/www/html/data

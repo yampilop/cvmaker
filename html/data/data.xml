@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<data>
+	<configuration>
+		<languages>
+			<spa>Español</spa>
+			<eng>English</eng>
+		</languages>
+		<page_settings>
+			<A4_10mm>
+				<title>A4 10mm margins</title>
+				<width>210mm</width>
+				<height>297mm</height>
+				<margins>10mm 10mm 10mm 10mm</margins>
+				<page_numbers>true</page_numbers>
+			</A4_10mm>
+			<A4_20mm>
+				<title>A4 20mm margins</title>
+				<width>210mm</width>
+				<height>297mm</height>
+				<margins>20mm 20mm 20mm 20mm</margins>
+				<page_numbers>true</page_numbers>
+			</A4_20mm>
+			<A4_0mm>
+				<title>A4 0mm margins</title>
+				<width>210mm</width>
+				<height>297mm</height>
+				<margins>0mm 0mm 0mm 0mm</margins>
+				<page_numbers>true</page_numbers>
+			</A4_0mm>
+		</page_settings>
+		<filters>
+			<full>Full information</full>
+			<filter1>Filter 1</filter1>
+			<filter2>Filter 2</filter2>
+		</filters>
+	</configuration>
+
+	<header>
+		<title>
+			<spa>Curriculum Vitae</spa>
+			<eng>Resume</eng>
+		</title>
+	</header>
+
+	<personal_data>
+		<title>
+			<spa>Datos personales</spa>
+			<eng>Personal information</eng>
+		</title>
+		
+		<photo>profile.jpg</photo>
+		
+		<parameters>
+			<full_name>
+				<title>
+					<spa>Nombre completo</spa>
+					<eng>Full name</eng>
+				</title>
+				<value>Cosme Fulanito</value>
+			</full_name>
+			
+			<email>
+				<title>
+					<spa>Correo electrónico</spa>
+					<eng>Email</eng>
+				</title>
+				<value>user@domain.com</value>
+			</email>
+			
+			<mobile_phone>
+				<title>
+					<spa>Móvil</spa>
+					<eng>Mobile phone</eng>
+				</title>
+				<value>(+DDI) DDN XXXXX-XXXX</value>
+			</mobile_phone>
+			
+			<nationality>
+				<title>
+					<spa>Nacionalidad</spa>
+					<eng>Nationality</eng>
+				</title>
+				<value>
+					<spa>(Nacionalidad)</spa>
+					<eng>(Nationality)</eng>
+				</value>
+			</nationality>
+			
+			<date_of_birth>
+				<title>
+					<spa>Fecha de nacimiento</spa>
+					<eng>Date of birth</eng>
+				</title>
+				<value>XXXX/XX/XX</value>
+			</date_of_birth>
+			
+			<address>
+				<title>
+					<spa>Domicilio</spa>
+					<eng>Personal Address</eng>
+				</title>
+				<value>
+					<spa>(Domicilio)</spa>
+					<eng>(Personal Address)</eng>
+				</value>
+			</address>
+			
+			<id>
+				<title>
+					<spa>D.N.I.</spa>
+					<eng>ID</eng>
+				</title>
+				<value>XX.XXX.XXX</value>
+			</id>
+			
+			<work_id>
+				<title>
+					<spa>CUIL</spa>
+					<eng>Work ID</eng>
+				</title>
+				<value>XX-XXXXXXXX-X</value>
+			</work_id>
+			
+			<marital_status>
+				<title>
+					<spa>Estado civil</spa>
+					<eng>Marital status</eng>
+				</title>
+				<value>
+					<spa>(Estado civil)</spa>
+					<eng>(Marital status)</eng>
+				</value>
+			</marital_status>
+			
+			<linkedin>
+				<title>
+					<spa>Perfil de LinkedIn</spa>
+					<eng>LinkedIn profile</eng>
+				</title>
+				<value>https://www.linkedin.com/in/user</value>
+			</linkedin>
+			
+			<github>
+				<title>
+					<spa>Perfil de GitHub</spa>
+					<eng>GitHub profile</eng>
+				</title>
+				<value>https://github.com/user</value>
+			</github>
+			
+			<dockerhub>
+				<title>
+					<spa>Perfil de DockerHub</spa>
+					<eng>DockerHub profile</eng>
+				</title>
+				<value>https://hub.docker.com/u/user</value>
+			</dockerhub>
+			
+			<relocation>
+				<title>
+					<spa>Dispuesto a reubicarse</spa>
+					<eng>Willing to relocate</eng>
+				</title>
+				<value>
+					<spa>Sí / No</spa>
+					<eng>Yes / No</eng>
+				</value>
+			</relocation>
+			
+			<travel>
+				<title>
+					<spa>Dispuesto a viajar</spa>
+					<eng>Willing to travel</eng>
+				</title>
+				<value>
+					<spa>Sí / No</spa>
+					<eng>Yes / No</eng>
+				</value>
+			</travel>
+		</parameters>
+	</personal_data>
+
+	<headline>
+		<title>
+			<spa>Titular</spa>
+			<eng>Headline</eng>
+		</title>
+		
+		<paragraphs>
+			<paragraph filters="full,filter1,filter2">
+				<spa>(Una descripción breve de la carrera y los objetivos personales.)</spa>
+				<eng>(A brief description of the career and personal objectives.)</eng>
+			</paragraph>
+		</paragraphs>
+	</headline>
+	
+	<work_experience>
+		<title>
+			<spa>Experiencia laboral</spa>
+			<eng>Work experience</eng>
+		</title>
+		
+		<experiences>
+			<experience filters="full,filter1,filter2">
+				<enterprise>(Enterprise)</enterprise>
+				<logo>white.jpg</logo>
+				<positions>
+					<position>
+						<title>
+							<spa>(Posición)</spa>
+							<eng>(Position)</eng>
+						</title>
+						<location>(Location)</location>
+						<start_date>XXXX/XX/XX</start_date>
+						<end_date>XXXX/XX/XX</end_date>
+						<details>
+							<paragraph filters="full,filter1,filter2">
+								<spa>(Una descripción breve de las tareas.)</spa>
+								<eng>(A brief description of the tasks.)</eng>
+							</paragraph>
+						</details>
+					</position>
+				</positions>
+			</experience>
+		</experiences>
+	</work_experience>
+	
+	<education>
+		<title>
+			<spa>Estudios</spa>
+			<eng>Education</eng>
+		</title>
+		
+		<experiences>
+			<experience filters="full,filter1,filter2">
+				<institution>(Institution)</institution>
+				<logo>white.jpg</logo>
+				<careers>
+					<career filters="full,filter1,filter2">
+						<title>
+							<spa>(Carrera)</spa>
+							<eng>(Career)</eng>
+						</title>
+						<location>(Location)</location>
+						<start_date>XXXX/XX/XX</start_date>
+						<end_date>XXXX/XX/XX</end_date>
+						<details>
+							<paragraph filters="full,filter1,filter2">
+								<spa>(Una descripción breve de la carrera.)</spa>
+								<eng>(A brief description of the career.)</eng>
+							</paragraph>
+						</details>
+					</career>
+				</careers>
+			</experience>
+		</experiences>
+	</education>
+	
+	<languages>
+		<title>
+			<spa>Idiomas</spa>
+			<eng>Languages</eng>
+		</title>
+		
+		<languages>
+			<language>
+				<title>
+					<spa>Español</spa>
+					<eng>Spanish</eng>
+				</title>
+				<fluency>
+					<spa>Nativo</spa>
+					<eng>Native</eng>
+				</fluency>
+				<levels filters="full,filter1,filter2">
+					<reading>10</reading>
+					<listening>10</listening>
+					<writing>10</writing>
+					<speaking>10</speaking>
+				</levels>
+			</language>
+			
+			<language>
+				<title>
+					<spa>Inglés</spa>
+					<eng>English</eng>
+				</title>
+				<fluency>
+					<spa>Avanzado</spa>
+					<eng>Advanced</eng>
+				</fluency>
+				<levels filters="full,filter1,filter2">
+					<reading>9</reading>
+					<listening>9</listening>
+					<writing>8</writing>
+					<speaking>8</speaking>
+				</levels>
+			</language>
+		</languages>
+	</languages>
+	
+	<courses>
+		<title>
+			<spa>Cursos</spa>
+			<eng>Courses</eng>
+		</title>
+		
+		<courses>
+			<course filters="full,filter1,filter2">
+				<title>
+					<spa>(Título)</spa>
+					<eng>(Title)</eng>
+				</title>
+				<institution>(Institution)</institution>
+				<end_date>XXXX/XX/XX</end_date>
+				<duration>XX</duration>
+			</course>
+		</courses>
+	</courses>
+	
+	<skills>
+		<title>
+			<spa>Habilidades</spa>
+			<eng>Skills</eng>
+		</title>
+		
+		<categories>
+			<category filters="full,filter1,filter2">
+				<title>
+					<spa>(Categoría)</spa>
+					<eng>(Category)</eng>
+				</title>
+				
+				<skills>
+					<skill filters="full,filter1,filter2">
+						<title>
+							<spa>(Habilidad)</spa>
+							<eng>(Skill)</eng>
+						</title>
+						<description>
+							<spa>(Descripción)</spa>
+							<eng>(Description)</eng>
+						</description>
+					</skill>
+				</skills>
+			</category>
+		</categories>
+	</skills>
+	
+	<projects>
+		<title>
+			<spa>Proyectos</spa>
+			<eng>Projects</eng>
+		</title>
+		
+		<projects>
+			<project filters="full,filter1,filter2">
+				<title>
+					<spa>(Proyecto)</spa>
+					<eng>(Project)</eng>
+				</title>
+				<institution>(Institution)</institution>
+				<start_date>XXXX/XX/XX</start_date>
+				<end_date>XXXX/XX/XX</end_date>
+				
+				<description>
+					<paragraph filters="full,filter1,filter2">
+						<spa>(Una descripción breve del proyecto.)</spa>
+						<eng>(A brief description of the project.)</eng>
+					</paragraph>
+				</description>
+			</project>
+		</projects>
+	</projects>
+</data>
