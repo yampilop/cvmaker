@@ -2,14 +2,11 @@
 FROM php:apache
 MAINTAINER Juan Pablo Martí <yampilop@gmail.com>
 
-# Environment variables
-ENV HTML_PATH /var/www/html
-
 # Expose ports
 EXPOSE 80
 
 # Copy files
-WORKDIR ${HTML_PATH}
+WORKDIR /var/www/html
 COPY html ./
 
 VOLUME /var/www/html/data
